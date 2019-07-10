@@ -49,7 +49,7 @@ Venus.rotation.x = 2;
 scene.add(Venus);
 
 Terratexture = new THREE.TextureLoader().load( 'https://raw.githubusercontent.com/Luan7sn/Computacao_Grafica/master/Trabalho%20Final/Imagens/earthmap1k.jpg' );
-var TerraGeometry = new THREE.SphereGeometry( 1.5, 32, 32 );
+var TerraGeometry = new THREE.SphereGeometry( 0.15, 32, 32 );
 var TerraMaterial = new THREE.MeshLambertMaterial( { map: Terratexture } );
 var Terra = new THREE.Mesh( TerraGeometry, TerraMaterial );
 Terra.position.set(0,0,-5);
